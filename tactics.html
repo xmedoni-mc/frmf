@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FRMF</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+  </style>
+</head>
+
+<body class="bg-white tracking-widest">
+
+  <!-- Logo -->
+  <header class="border-b border-gray-300">
+
+    <!-- Logo -->
+    <section>
+      <div class="max-w-full mx-auto px-4 bg-[#cc0a16]">
+        <ul class="flex justify-center space-x-8 py-3 text-sm text-white font-bold">
+          <li><a href="#" class="hover:text-gray-100 transition">العربية</a></li>
+          <li><a href="#" class="hover:text-gray-100 transition">ⵣⵉⵏⴰⵖ</a></li>
+          <li><a href="#" class="hover:text-gray-100 transition">English</a></li>
+          <li><a href="#" class="hover:text-gray-100 transition">Français</a></li>
+        </ul>
+      </div>
+      <div class="flex justify-center py-6 bg-[#cc0a16]">
+        <img src="logo.png" alt="Logo" class="h-32 w-auto" />
+      </div>
+    </section>
+
+  </header>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="sticky top-0 z-50 bg-[#f7f7f7] border-b border-gray-300 shadow-xl transition-all duration-500 ease-in-out">
+    <div class="max-w-full mx-auto px-4">
+      <ul class="flex justify-center space-x-8 py-3 text-sm uppercase font-bold">
+        <li><a href="home.html" class="hover:text-gray-700 transition">Home</a></li>
+        <li><a href="players.html" class="hover:text-gray-700 transition">Players</a></li>
+        <li><a href="#tactics" class="hover:text-gray-700 transition">Tactics</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-[#f7f7f7]">
+    <div class="max-w-[1200px] mx-auto px-4 py-16">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+
+        <!-- Hero Text -->
+        <div>
+          <h1 class="text-5xl lg:text-6xl font-bold leading-tight">
+            The Future of Sports Strategy
+          </h1>
+          <p class="mt-6 text-lg lg:text-xl text-gray-700 leading-relaxed">
+            Discover the best players, plans, and strategies
+          </p>
+          <div class="mt-8">
+            <a href="players.html" class="inline-block border border-black px-8 py-3 text-sm uppercase font-medium hover:bg-black hover:text-white transition">
+              Explore Players
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Image (optional) -->
+        <div class="hidden lg:block">
+          <div class="h-96 bg-gray-200 border border-gray-300 flex items-center justify-center">
+            <img 
+            src="https://le12.ma/wp-content/uploads/2024/01/%D8%AD%D9%83%D9%8A%D9%85-%D8%B2%D9%8A%D8%A7%D8%B4-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A.webp" 
+            alt="Hakim Ziyech" 
+            class="w-full h-full object-cover"
+          />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Formation 4-2-3-1 -->
+  <section>
+    <div id="tactics" class="max-w-[1200px] mx-auto grid grid-cols-3 gap-4 pt-16 mb-16">
+      <div class="flex flex-col space-y-4 text-base">
+        <h2 class="text-3xl font-bold border-b-2 border-black shadow-md">Starting XI</h2>
+        <!-- Players list -->
+        <p class="text-gray-700"><span class="font-bold">GoalKeeper:</span> Bounou</p>
+        <p class="text-gray-700"><span class="font-bold">Center-back:</span> Nayef Aguerd, Chadi Riad</p>
+        <p class="text-gray-700"><span class="font-bold">Right-back:</span> Achraf Hakimi</p>
+        <p class="text-gray-700"><span class="font-bold">Left-back:</span> Noussair Mazraoui</p>
+        <p class="text-gray-700"><span class="font-bold">Defensive Midfielder:</span> Ayyoub Bouaddi, Neil El Aynaoui</p>
+        <p class="text-gray-700"><span class="font-bold">Attacking Midfielder:</span> Hakim Ziyech</p>
+        <p class="text-gray-700"><span class="font-bold">Right Winger:</span> Brahim Diaz</p>
+        <p class="text-gray-700"><span class="font-bold">Left Winger:</span> Abdessamad Ezzalzouli</p>
+        <p class="text-gray-700"><span class="font-bold">Center-Forward:</span> Youssef En-Nesyri</p>
+      </div>
+
+      <div class="flex flex-col space-y-4 text-base">
+        <h2 class="text-3xl font-bold border-b-2 border-black shadow-md">Substitutions</h2>
+        <p class="text-gray-700"><strong>GK (2):</strong> El Mehdi Al Harrar, Yanis Benchaouch</p>
+        <p class="text-gray-700"><strong>RB (1):</strong> Omar El Hilali</p>
+        <p class="text-gray-700"><strong>CB (2):</strong> Ismael Baouf, Ayman El Wafi</p>
+        <p class="text-gray-700"><strong>LB (1):</strong> Anass Salah-Eddine</p>
+        <p class="text-gray-700"><strong>DM (1):</strong> Oussama El Azzouzi</p>
+        <p class="text-gray-700"><strong>CM (2):</strong> Samir El Mourabet, Azzedine Ounahi</p>
+        <p class="text-gray-700"><strong>AM (2):</strong> Bilal El Khannouss, Sofiane Boufal</p>
+        <p class="text-gray-700"><strong>RW (1):</strong> Ilias Akhomach</p>
+        <p class="text-gray-700"><strong>LW (1):</strong> Chemsdine Talbi</p>
+        <p class="text-gray-700"><strong>CF (2):</strong> Yassir Zabiri, El Mehdi Maouhoub</p> 
+      </div>
+      <!-- soccer field -->
+      <div>
+        <h2 class="text-3xl font-bold tracking-widest mb-4 border-b-2 border-black shadow-md">
+          Formation (4-2-3-1)
+        </h2>
+
+        <div class="relative w-full aspect-[2/3] bg-green-700 border-2 border-black rounded-lg overflow-hidden">
+
+          <img
+            src="soccer-field.jpg"
+            alt="Soccer Field"
+            class="absolute inset-0 w-full h-full pointer-events-none"
+          />
+
+          <!-- PLAYER TEMPLATE -->
+          <!-- Just copy this structure for all players -->
+
+          <!-- GK -->
+          <div
+            class="draggable absolute w-10 h-10 bg-[#ff0000] rounded-full
+                  flex items-center justify-center text-xs font-bold
+                  cursor-move shadow-md border-2 border-[#f4511e]"
+            style="top: 90%; left: 50%; transform: translate(-50%, -50%);"
+          >GK</div>
+
+          <!-- DEFENSE -->
+          <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+              style="top: 74%; left: 15%; transform: translate(-50%, -50%);">LB</div>
+
+          <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+              style="top: 80%; left: 35%; transform: translate(-50%, -50%);">LCB</div>
+
+          <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+              style="top: 80%; left: 65%; transform: translate(-50%, -50%);">RCB</div>
+
+          <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+              style="top: 74%; left: 85%; transform: translate(-50%, -50%);">RB</div>
+
+          <!-- DOUBLE PIVOT -->
+          <div class="draggable absolute w-10 h-10 bg-[#ff6f00] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+              style="top: 64%; left: 40%; transform: translate(-50%, -50%);">LDM</div>
+
+          <div class="draggable absolute w-10 h-10 bg-[#ff6f00] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+              style="top: 64%; left: 60%; transform: translate(-50%, -50%);">RDM</div>
+
+          <!-- CAM -->
+          <div class="draggable absolute w-10 h-10 bg-[#d4af37] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#fbc02d] cursor-move shadow-md"
+              style="top: 45%; left: 50%; transform: translate(-50%, -50%);">AM</div>
+
+          <!-- FRONT 3 -->
+          <div class="draggable absolute w-10 h-10 bg-[#00acc1] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#d4af37] cursor-move shadow-md"
+              style="top: 45%; left: 20%; transform: translate(-50%, -50%);">LW</div>
+
+          <div class="draggable absolute w-10 h-10 bg-[#43a047] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#00acc1] cursor-move shadow-md"
+              style="top: 30%; left: 50%; transform: translate(-50%, -50%);">CF</div>
+
+          <div class="draggable absolute w-10 h-10 bg-[#00acc1] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#d4af37] cursor-move shadow-md"
+              style="top: 45%; left: 80%; transform: translate(-50%, -50%);">RW</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Tacticss 4-2-3-1 -->
+  <section class="max-w-[1200px] mx-auto mb-16">
+    <h2 class="text-3xl font-bold mb-4 border-b-2 border-black shadow-md">Tactics </h2>   
+    <div class="grid grid-cols-3 gap-4">
+      <!-- 4-2-3-1 -->
+      <div>
+        <h2 class="font-bold mb-2 text-gray-700">Defensive Phase (Out of Possession)<span class="block">4-4-1-1</span></h2>
+        <!-- soccer field -->
+        <div>
+
+          <div class="relative w-full aspect-[2/3] bg-green-700 border-2 border-black rounded-lg overflow-hidden">
+
+            <img
+              src="soccer-field.jpg"
+              alt="Soccer Field"
+              class="absolute inset-0 w-full h-full pointer-events-none"
+            />
+
+            <!-- GK -->
+            <div
+              class="draggable absolute w-10 h-10 bg-[#ff0000] rounded-full
+                    flex items-center justify-center text-xs font-bold
+                    cursor-move shadow-md border-2 border-[#f4511e]"
+              style="top: 90%; left: 50%; transform: translate(-50%, -50%);"
+            >GK</div>
+
+            <!-- DEFENSE -->
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 74%; left: 15%; transform: translate(-50%, -50%);">LB</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 80%; left: 35%; transform: translate(-50%, -50%);">LCB</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 80%; left: 65%; transform: translate(-50%, -50%);">RCB</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 74%; left: 85%; transform: translate(-50%, -50%);">RB</div>
+
+            <!-- MIDFIELD 4 -->
+            <div class="draggable absolute w-10 h-10 bg-[#00acc1] rounded-full flex flex-col items-center justify-center font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 60%; left: 15%; transform: translate(-50%, -50%);">
+                
+                <span class="text-xs leading-none">LW</span>
+                <span class="text-[1px] leading-none">LM</span>           
+            </div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#ff6f00] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 70%; left: 40%; transform: translate(-50%, -50%);">DM</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#ff6f00] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 70%; left: 60%; transform: translate(-50%, -50%);">DM</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#00acc1] rounded-full flex flex-col items-center justify-center font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 60%; left: 85%; transform: translate(-50%, -50%);">
+                
+                <span class="text-xs leading-none">RW</span>
+                <span class="text-[1px] leading-none">RM</span>           
+            </div>
+
+            <!-- AM -->
+            <div class="draggable absolute w-10 h-10 bg-[#d4af37] rounded-full flex flex-col items-center justify-center font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 60%; left: 50%; transform: translate(-50%, -50%);">
+                <span class="text-[1px] leading-none">CM</span>           
+            </div>
+
+            <!-- CF -->
+            <div class="draggable absolute w-10 h-10 bg-[#43a047] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#00acc1] cursor-move shadow-md"
+                style="top: 50%; left: 50%; transform: translate(-50%, -50%);">CF</div>
+
+
+          </div>
+        </div>
+
+      </div>  
+
+      <!-- 3-2-5 -->
+      <div>
+        <h2 class="font-bold mb-2 text-gray-700">Attacking Phase (In Possession)<span class="block">3-2-5 Right</span></h2> 
+        <!-- soccer field -->
+        <div>
+
+          <div class="relative w-full aspect-[2/3] bg-green-700 border-2 border-black rounded-lg overflow-hidden">
+
+            <img
+              src="soccer-field.jpg"
+              alt="Soccer Field"
+              class="absolute inset-0 w-full h-full pointer-events-none"
+            />
+
+            <!-- GK -->
+            <div
+              class="draggable absolute w-10 h-10 bg-[#ff0000] rounded-full
+                    flex items-center justify-center text-xs font-bold
+                    cursor-move shadow-md border-2 border-[#f4511e]"
+              style="top: 85%; left: 50%; transform: translate(-50%, -50%);"
+            >GK</div>
+
+            <!-- DEFENSE -->
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 47%; left: 20%; transform: translate(-50%, -50%);">LB</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 55%; left: 50%; transform: translate(-50%, -50%);">LCB</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 47%; left: 80%; transform: translate(-50%, -50%);">RCB</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 30%; left: 85%; transform: translate(-50%, -50%);">RWB</div>
+
+            <!-- DOUBLE PIVOT -->
+            <div class="draggable absolute w-10 h-10 bg-[#ff6f00] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 40%; left: 40%; transform: translate(-50%, -50%);">DM</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#ff6f00] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 40%; left: 60%; transform: translate(-50%, -50%);">DM</div>
+
+            <!-- AM -->
+            <div class="draggable absolute w-10 h-10 bg-[#d4af37] rounded-full flex flex-col items-center justify-center font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 28%; left: 50%; transform: translate(-50%, -50%);">
+                
+                <span class="text-xs leading-none">AM</span>
+                <span class="text-[1px] leading-none">CM</span>           
+            </div>
+            <!-- FRONT 3 -->
+            <div class="draggable absolute w-10 h-10 bg-[#00acc1] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#d4af37] cursor-move shadow-md"
+                style="top: 20%; left: 20%; transform: translate(-50%, -50%);">LW</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#43a047] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#00acc1] cursor-move shadow-md"
+                style="top: 15%; left: 50%; transform: translate(-50%, -50%);">CF</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#00acc1] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#d4af37] cursor-move shadow-md"
+                style="top: 20%; left: 70%; transform: translate(-50%, -50%);">RW</div>
+          </div>
+        </div>
+
+
+   
+      </div>
+
+      <!-- 3-2-5 -->
+      <div>
+        <h2 class="font-bold mb-2 text-gray-700">Attacking Phase (In Possession)<span class="block">3-2-5 Left</span></h2> 
+        <!-- soccer field -->
+        <div>
+
+          <div class="relative w-full aspect-[2/3] bg-green-700 border-2 border-black rounded-lg overflow-hidden">
+
+            <img
+              src="soccer-field.jpg"
+              alt="Soccer Field"
+              class="absolute inset-0 w-full h-full pointer-events-none"
+            />
+
+            <!-- GK -->
+            <div
+              class="draggable absolute w-10 h-10 bg-[#ff0000] rounded-full
+                    flex items-center justify-center text-xs font-bold
+                    cursor-move shadow-md border-2 border-[#f4511e]"
+              style="top: 85%; left: 50%; transform: translate(-50%, -50%);"
+            >GK</div>
+
+            <!-- DEFENSE -->
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 30%; left: 15%; transform: translate(-50%, -50%);">LWB</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 47%; left: 20%; transform: translate(-50%, -50%);">LCB</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 55%; left: 50%; transform: translate(-50%, -50%);">RCB</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 47%; left: 80%; transform: translate(-50%, -50%);">RB</div>
+
+            <!-- DOUBLE PIVOT -->
+            <div class="draggable absolute w-10 h-10 bg-[#ff6f00] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 40%; left: 40%; transform: translate(-50%, -50%);">DM</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#ff6f00] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 40%; left: 60%; transform: translate(-50%, -50%);">DM</div>
+
+            <!-- AM -->
+            <div class="draggable absolute w-10 h-10 bg-[#d4af37] rounded-full flex flex-col items-center justify-center font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 28%; left: 50%; transform: translate(-50%, -50%);">
+                
+                <span class="text-xs leading-none">AM</span>
+                <span class="text-[1px] leading-none">CM</span>           
+            </div>
+
+            <!-- FRONT 3 -->
+            <div class="draggable absolute w-10 h-10 bg-[#00acc1] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#d4af37] cursor-move shadow-md"
+                style="top: 20%; left: 30%; transform: translate(-50%, -50%);">LW</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#43a047] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#00acc1] cursor-move shadow-md"
+                style="top: 15%; left: 50%; transform: translate(-50%, -50%);">CF</div>
+
+            <div class="draggable absolute w-10 h-10 bg-[#00acc1] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#d4af37] cursor-move shadow-md"
+                style="top: 20%; left: 80%; transform: translate(-50%, -50%);">RW</div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- ************************************************************ -->
+
+  <!-- Details 4-1-2-3 -->
+  <section class="max-w-[1200px] mx-auto mb-16">
+    <h2 class="text-3xl font-bold mb-4 border-b-2 border-black shadow-md">Formation 4-1-2-3</h2>
+    <div class="grid grid-cols-2 gap-4">
+      <div>
+        <h2 class="font-bold mb-2">Defense Tactic</h2>
+        <ul class="text-gray-700 text-base">
+          <li class="list-disc ml-12 pl-6 mb-2">The midfield is weaker defensively compared to 4-2-3-1</li>
+          <li class="list-disc ml-12 pl-6 mb-2">Risky if CDM fails</li>
+          <li class="list-disc ml-12 pl-6 mb-2">Space between the CB and CM can lead to free space</li>
+        </ul>
+
+        <h2 class="font-bold mb-2">Attack Tactic</h2>
+        <ul class="text-gray-700 text-base">
+          <li class="list-disc ml-12 pl-6 mb-2">Strong attacking presence with 3 forwards + 2 CMs</li>
+          <li class="list-disc ml-12 pl-6 mb-2">Midfielders can push forward to support attacks</li>
+          <li class="list-disc ml-12 pl-6 mb-2">Great for possession play and pressing high</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="font-bold mb-2">Balanced (Attack + Defense)</h2>
+        <p class="text-base text-gray-700 mb-2"> This formation is more attack-oriented, but still workable defensively if the CDM is disciplined.</p>
+        <h2 class="font-bold mb-2">Best transitional tactic:</h2>
+        <p class="text-base text-gray-700 mb-2">✔ CDM anchors</p>
+        <p class="text-base text-gray-700 mb-2">✔ Wingers drop quickly</p>
+        <p class="text-base text-gray-700 mb-2">✔ CMs track back in defense</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Formation 4-1-2-3 -->
+  <section>
+    <div id="tactics" class="max-w-[1200px] mx-auto grid grid-cols-3 gap-4 mb-16">
+      <div class="flex flex-col space-y-4 text-base">
+        <h2 class="text-3xl font-bold border-b-2 border-black shadow-md">Starting XI</h2>
+        <!-- Players list -->
+        <p class="text-gray-700"><span class="font-bold">GoalKeeper:</span> Bounou</p>
+        <p class="text-gray-700"><span class="font-bold">Center-back:</span> Nayef Aguerd, Chadi Riad</p>
+        <p class="text-gray-700"><span class="font-bold">Right-back:</span> Achraf Hakimi</p>
+        <p class="text-gray-700"><span class="font-bold">Left-back:</span> Noussair Mazraoui</p>
+        <p class="text-gray-700"><span class="font-bold">Defensive Midfielder:</span> Oussama El Azzouzi</p>
+        <p class="text-gray-700"><span class="font-bold">Central Midfielder:</span> Ayyoub Bouaddi, Neil El Aynaoui</p>
+        <p class="text-gray-700"><span class="font-bold">Right Winger:</span> Hakim Ziyech</p>
+        <p class="text-gray-700"><span class="font-bold">Left Winger:</span> Brahim Diaz</p>
+        <p class="text-gray-700"><span class="font-bold">Center-Forward:</span> Youssef En-Nesyri</p>
+      </div>
+
+      <div class="flex flex-col space-y-4 text-base">
+        <h2 class="text-3xl font-bold border-b-2 border-black shadow-md">Substitutions</h2>
+        <p class="text-gray-700"><strong>GK (2):</strong> El Mehdi Al Harrar, Yanis Benchaouch</p>
+        <p class="text-gray-700"><strong>RB (1):</strong> Omar El Hilali</p>
+        <p class="text-gray-700"><strong>CB (2):</strong> Ismael Baouf, Ayman El Wafi</p>
+        <p class="text-gray-700"><strong>LB (1):</strong> Anass Salah-Eddine</p>
+        <p class="text-gray-700"><strong>DM (1):</strong> </p>
+        <p class="text-gray-700"><strong>CM (2):</strong> Samir El Mourabet, Azzedine Ounahi</p>
+        <p class="text-gray-700"><strong>AM (2):</strong> Bilal El Khannouss, Sofiane Boufal</p>
+        <p class="text-gray-700"><strong>RW (1):</strong> Ilias Akhomach</p>
+        <p class="text-gray-700"><strong>LW (2):</strong> Abdessamad Ezzalzouli, Chemsdine Talbi</p>
+        <p class="text-gray-700"><strong>CF (2):</strong> Yassir Zabiri, El Mehdi Maouhoub</p> 
+      </div>
+      <!-- soccer field -->
+      <div>
+        <h2 class="text-3xl font-bold tracking-widest mb-4 border-b-2 border-black shadow-md">
+          Formation (4-1-2-3)
+        </h2>
+
+        <div class="relative w-full aspect-[2/3] bg-green-700 border-2 border-black rounded-lg overflow-hidden">
+
+          <img
+            src="soccer-field.jpg"
+            alt="Soccer Field"
+            class="absolute inset-0 w-full h-full pointer-events-none"
+          />
+
+          <!-- PLAYER TEMPLATE -->
+          <!-- Just copy this structure for all players -->
+
+          <!-- GK -->
+          <div
+            class="draggable absolute w-10 h-10 bg-[#ff0000] rounded-full
+                  flex items-center justify-center text-xs font-bold
+                  cursor-move shadow-md border-2 border-[#f4511e]"
+            style="top: 90%; left: 50%; transform: translate(-50%, -50%);"
+          >GK</div>
+
+          <!-- DEFENSE -->
+          <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+              style="top: 74%; left: 15%; transform: translate(-50%, -50%);">LB</div>
+
+          <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+              style="top: 80%; left: 35%; transform: translate(-50%, -50%);">LCB</div>
+
+          <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+              style="top: 80%; left: 65%; transform: translate(-50%, -50%);">RCB</div>
+
+          <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+              style="top: 74%; left: 85%; transform: translate(-50%, -50%);">RB</div>
+
+          <!-- DOUBLE PIVOT -->
+          <div class="draggable absolute w-10 h-10 bg-[#ff6f00] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+              style="top: 67%; left: 50%; transform: translate(-50%, -50%);">DM</div>
+
+          <div class="draggable absolute w-10 h-10 bg-[#d4af37] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+              style="top: 55%; left: 65%; transform: translate(-50%, -50%);">RCM</div>
+
+          <!-- CAM -->
+          <div class="draggable absolute w-10 h-10 bg-[#d4af37] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#fbc02d] cursor-move shadow-md"
+              style="top: 55%; left: 35%; transform: translate(-50%, -50%);">LCM</div>
+
+          <!-- FRONT 3 -->
+          <div class="draggable absolute w-10 h-10 bg-[#00acc1] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#d4af37] cursor-move shadow-md"
+              style="top: 40%; left: 20%; transform: translate(-50%, -50%);">LW</div>
+
+          <div class="draggable absolute w-10 h-10 bg-[#43a047] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#00acc1] cursor-move shadow-md"
+              style="top: 30%; left: 50%; transform: translate(-50%, -50%);">CF</div>
+
+          <div class="draggable absolute w-10 h-10 bg-[#00acc1] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#d4af37] cursor-move shadow-md"
+              style="top: 40%; left: 80%; transform: translate(-50%, -50%);">RW</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tactics 4-1-2-3 -->
+  <section class="max-w-[1200px] mx-auto mb-16">
+    <h2 class="text-3xl font-bold mb-4 border-b-2 border-black shadow-md">Tactics </h2>   
+    <div class="grid grid-cols-3 gap-4">
+      <!-- 4-1-2-3 -->
+      <div>
+        <h2 class="font-bold mb-2 text-gray-700">Defensive Phase (Out of Possession)<span class="block">4-1-2-3</span></h2>
+        <!-- soccer field -->
+        <div>
+
+          <div class="relative w-full aspect-[2/3] bg-green-700 border-2 border-black rounded-lg overflow-hidden">
+
+            <img
+              src="soccer-field.jpg"
+              alt="Soccer Field"
+              class="absolute inset-0 w-full h-full pointer-events-none"
+            />
+  
+            <!-- PLAYER TEMPLATE -->
+            <!-- Just copy this structure for all players -->
+  
+            <!-- GK -->
+            <div
+              class="draggable absolute w-10 h-10 bg-[#ff0000] rounded-full
+                    flex items-center justify-center text-xs font-bold
+                    cursor-move shadow-md border-2 border-[#f4511e]"
+              style="top: 90%; left: 50%; transform: translate(-50%, -50%);"
+            >GK</div>
+  
+            <!-- DEFENSE -->
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 74%; left: 15%; transform: translate(-50%, -50%);">LB</div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 80%; left: 35%; transform: translate(-50%, -50%);">LCB</div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 80%; left: 65%; transform: translate(-50%, -50%);">RCB</div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 74%; left: 85%; transform: translate(-50%, -50%);">RB</div>
+  
+            <!-- DM -->
+            <div class="draggable absolute w-10 h-10 bg-[#ff6f00] rounded-full flex flex-col items-center justify-center font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 70%; left: 50%; transform: translate(-50%, -50%);">
+                
+                <span class="text-xs leading-none">DM</span>
+                <span class="text-[1px] leading-none">CB</span>           
+            </div>
+                
+            <!-- DOUBLE CM-->
+            <div class="draggable absolute w-10 h-10 bg-[#d4af37] rounded-full flex flex-col items-center justify-center font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 60%; left: 65%; transform: translate(-50%, -50%);">
+                
+                <span class="text-xs leading-none">CM</span>
+                <span class="text-[1px] leading-none">DM</span>
+            
+            </div>
+            
+            <div class="draggable absolute w-10 h-10 bg-[#d4af37] rounded-full flex flex-col items-center justify-center font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 60%; left: 35%; transform: translate(-50%, -50%);">
+                
+                <span class="text-xs leading-none">CM</span>
+                <span class="text-[1px] leading-none">DM</span>
+            
+            </div>
+  
+            <!-- FRONT 3 -->00ACC1
+            <div class="draggable absolute w-10 h-10 bg-[#00ACC1] rounded-full flex flex-col items-center justify-center font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 50%; left: 20%; transform: translate(-50%, -50%);">
+                
+                <span class="text-xs leading-none">LW</span>
+                <span class="text-[1px] leading-none">LM</span>           
+            </div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#43a047] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#00acc1] cursor-move shadow-md"
+                style="top: 45%; left: 50%; transform: translate(-50%, -50%);">CF</div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#00ACC1] rounded-full flex flex-col items-center justify-center font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 50%; left: 80%; transform: translate(-50%, -50%);">
+                
+                <span class="text-xs leading-none">RW</span>
+                <span class="text-[1px] leading-none">RM</span>           
+            </div>
+          </div>
+        </div>
+
+      </div>  
+
+      <!-- 3-1-2-4 -->
+      <div>
+        <h2 class="font-bold mb-2 text-gray-700">Attacking Phase (In Possession)<span class="block">3-1-2-4 Right</span></h2>
+        <!-- soccer field -->
+        <div>
+
+          <div class="relative w-full aspect-[2/3] bg-green-700 border-2 border-black rounded-lg overflow-hidden">
+
+            <img
+              src="soccer-field.jpg"
+              alt="Soccer Field"
+              class="absolute inset-0 w-full h-full pointer-events-none"
+            />
+  
+            <!-- PLAYER TEMPLATE -->
+            <!-- Just copy this structure for all players -->
+  
+            <!-- GK -->
+            <div
+              class="draggable absolute w-10 h-10 bg-[#ff0000] rounded-full
+                    flex items-center justify-center text-xs font-bold
+                    cursor-move shadow-md border-2 border-[#f4511e]"
+              style="top: 85%; left: 50%; transform: translate(-50%, -50%);"
+            >GK</div>
+  
+            <!-- DEFENSE -->
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 50%; left: 20%; transform: translate(-50%, -50%);">LB</div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 55%; left: 50%; transform: translate(-50%, -50%);">LCB</div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 50%; left: 80%; transform: translate(-50%, -50%);">RCB</div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 25%; left: 85%; transform: translate(-50%, -50%);">RWB</div>
+  
+            <!-- DM -->
+            <div class="draggable absolute w-10 h-10 bg-[#ff6f00] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 40%; left: 50%; transform: translate(-50%, -50%);">DM</div>
+            
+            <!-- DOUBLE CM-->
+            <div class="draggable absolute w-10 h-10 bg-[#d4af37] rounded-full flex flex-col items-center justify-center font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 30%; left: 65%; transform: translate(-50%, -50%);">
+                
+                <span class="text-xs leading-none">AM</span>
+                <span class="text-[1px] leading-none">CM</span>           
+            </div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#d4af37] rounded-full flex flex-col items-center justify-center font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 30%; left: 35%; transform: translate(-50%, -50%);">
+                
+                <span class="text-xs leading-none">AM</span>
+                <span class="text-[1px] leading-none">CM</span>           
+            </div>
+  
+            <!-- FRONT 3 -->
+            <div class="draggable absolute w-10 h-10 bg-[#00acc1] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#d4af37] cursor-move shadow-md"
+                style="top: 20%; left: 20%; transform: translate(-50%, -50%);">LW</div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#43a047] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#00acc1] cursor-move shadow-md"
+                style="top: 15%; left: 50%; transform: translate(-50%, -50%);">CF</div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#00acc1] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#d4af37] cursor-move shadow-md"
+                style="top: 17%; left: 70%; transform: translate(-50%, -50%);">RW</div>
+          </div>
+        </div>
+
+      </div>  
+
+      <!-- 3-1-2-4 -->
+      <div>
+        <h2 class="font-bold mb-2 text-gray-700">Attacking Phase (In Possession)<span class="block">3-1-2-4 Left</span></h2>
+        <!-- soccer field -->
+        <div>
+
+          <div class="relative w-full aspect-[2/3] bg-green-700 border-2 border-black rounded-lg overflow-hidden">
+
+            <img
+              src="soccer-field.jpg"
+              alt="Soccer Field"
+              class="absolute inset-0 w-full h-full pointer-events-none"
+            />
+  
+            <!-- PLAYER TEMPLATE -->
+            <!-- Just copy this structure for all players -->
+  
+            <!-- GK -->
+            <div
+              class="draggable absolute w-10 h-10 bg-[#ff0000] rounded-full
+                    flex items-center justify-center text-xs font-bold
+                    cursor-move shadow-md border-2 border-[#f4511e]"
+              style="top: 85%; left: 50%; transform: translate(-50%, -50%);"
+            >GK</div>
+  
+            <!-- DEFENSE -->
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 25%; left: 15%; transform: translate(-50%, -50%);">LWB</div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 50%; left: 20%; transform: translate(-50%, -50%);">LCB</div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 55%; left: 50%; transform: translate(-50%, -50%);">RCB</div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#f4511e] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ff0000] cursor-move shadow-md"
+                style="top: 50%; left: 80%; transform: translate(-50%, -50%);">RB</div>
+  
+            <!-- DM -->
+            <div class="draggable absolute w-10 h-10 bg-[#ff6f00] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 40%; left: 50%; transform: translate(-50%, -50%);">DM</div>
+            
+            <!-- DOUBLE CM -->
+            <div class="draggable absolute w-10 h-10 bg-[#d4af37] rounded-full flex flex-col items-center justify-center font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 30%; left: 65%; transform: translate(-50%, -50%);">
+                
+                <span class="text-xs leading-none">AM</span>
+                <span class="text-[1px] leading-none">CM</span>           
+            </div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#d4af37] rounded-full flex flex-col items-center justify-center font-bold border-2 border-[#ffca28] cursor-move shadow-md"
+                style="top: 30%; left: 35%; transform: translate(-50%, -50%);">
+                
+                <span class="text-xs leading-none">AM</span>
+                <span class="text-[1px] leading-none">CM</span>           
+            </div>
+  
+            <!-- FRONT 3 -->
+            <div class="draggable absolute w-10 h-10 bg-[#00acc1] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#d4af37] cursor-move shadow-md"
+                style="top: 17%; left: 30%; transform: translate(-50%, -50%);">LW</div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#43a047] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#00acc1] cursor-move shadow-md"
+                style="top: 15%; left: 50%; transform: translate(-50%, -50%);">CF</div>
+  
+            <div class="draggable absolute w-10 h-10 bg-[#00acc1] rounded-full flex items-center justify-center text-xs font-bold border-2 border-[#d4af37] cursor-move shadow-md"
+                style="top: 20%; left: 80%; transform: translate(-50%, -50%);">RW</div>
+          </div>
+        </div>
+
+      </div>  
+      
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-300 bg-[#f7f7f7]">
+    <div class="max-w-[1200px] mx-auto px-4 py-8">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+
+        <div class="text-sm text-gray-700">
+          <p class="font-semibold tracking-widest uppercase">Morocco National Team</p>
+          <p class="mt-1">World Cup 2026 • Vision 2030</p>
+        </div>
+
+        <div class="flex flex-wrap gap-4 text-xs uppercase tracking-widest text-gray-700">
+          <a href="home.html" class="hover:text-black">Home</a>
+          <a href="players.html" class="hover:text-black">Players</a>
+          <a href="#tactics" class="hover:text-black">Tactics</a>
+        </div>
+
+        <div class="text-xs text-gray-500 font-bold">
+          <p>© <span id="year"></span> Morocco Strategy</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interact.js -->
+  <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+
+  <!-- Your JS -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const navbar = document.getElementById("navbar");
+
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 250) {
+        navbar.classList.remove("bg-[#f7f7f7]");
+        navbar.classList.add("bg-[#cc0a16]", "shadow-md");
+        navbar.classList.add("text-white")
+      } else {
+        navbar.classList.remove("bg-[#cc0a16]", "shadow-md");
+        navbar.classList.remove("text-white")
+        navbar.classList.add("bg-[#f7f7f7]");
+      }
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

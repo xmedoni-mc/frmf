@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FRMF</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+  </style>
+</head>
+
+<body class="bg-white tracking-widest">
+
+  <!-- Header -->
+  <header class="border-b border-gray-300">
+
+    <!-- Logo -->
+    <section>
+      <div class="max-w-full mx-auto px-4 bg-[#cc0a16]">
+        <ul class="flex justify-center space-x-8 py-3 text-sm text-white font-bold">
+          <li><a href="#" class="hover:text-gray-100 transition">العربية</a></li>
+          <li><a href="#" class="hover:text-gray-100 transition">ⵣⵉⵏⴰⵖ</a></li>
+          <li><a href="#" class="hover:text-gray-100 transition">English</a></li>
+          <li><a href="#" class="hover:text-gray-100 transition">Français</a></li>
+        </ul>
+      </div>
+      <div class="flex justify-center py-6 bg-[#cc0a16]">
+        <img src="logo.png" alt="Logo" class="h-32 w-auto" />
+      </div>
+    </section>
+
+  </header>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="sticky top-0 z-50 bg-[#f7f7f7] border-b border-gray-300 shadow-xl transition-all duration-500 ease-in-out">
+    <div class="max-w-full mx-auto px-4">
+      <ul class="flex justify-center space-x-8 py-3 text-sm uppercase font-bold">
+        <li><a href="home.html" class="hover:text-gray-700 transition">Home</a></li>
+        <li><a href="#players" class="hover:text-gray-700 transition">Players</a></li>
+        <li><a href="tactics.html" class="hover:text-gray-700 transition">Tactics</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-[#f7f7f7]">
+    <div class="max-w-[1200px] mx-auto px-4 py-16">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+
+        <!-- Hero Text -->
+        <div>
+          <h1 class="text-5xl lg:text-6xl font-bold leading-tight">
+            The Future of Sports Strategy
+          </h1>
+          <p class="mt-6 text-lg lg:text-xl text-gray-700 leading-relaxed">
+            Discover the best players, plans, and strategies
+          </p>
+          <div class="mt-8">
+            <a href="tactics.html" class="inline-block border border-black px-8 py-3 text-sm uppercase font-medium hover:bg-black hover:text-white transition">
+              Explore Tactics
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Image (optional) -->
+        <div class="hidden lg:block">
+          <div class="h-96 bg-gray-200 border border-gray-300 flex items-center justify-center">
+            <img 
+            src="https://le12.ma/wp-content/uploads/2024/01/%D8%AD%D9%83%D9%8A%D9%85-%D8%B2%D9%8A%D8%A7%D8%B4-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A.webp" 
+            alt="Hakim Ziyech" 
+            class="w-full h-full object-cover"
+          />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Players -->
+  <section id="players" class="border-t border-gray-300">
+    <div class="max-w-[1200px] mx-auto px-4 py-16">
+
+      <h2 class="text-3xl font-bold mb-4 pb-2 border-b-2 border-black shadow-md">Players Database so Far</h2>
+
+      <!-- Table -->
+      <div class="overflow-x-auto border border-gray-300 mb-16">
+        <table class="w-full mx-auto">
+          <thead class="bg-[#30a177] uppercase tracking-widest text-left text-base border-b">
+            <tr>
+              <th class="text-white p-3 font-bold">#</th>
+              <th class="text-white font-bold">Main Pos</th>
+              <th class="text-white font-bold">Player</th>
+              <th class="text-white font-bold">Other Pos</th>
+              <th class="text-white font-bold">Injury</th>
+              <th class="text-white font-bold">Foot</th>
+              <th class="text-white font-bold">Age</th>
+              <th class="text-white font-bold">Height</th>
+              <th class="text-white font-bold">Club</th>
+              <th class="text-white font-bold">Market</th>
+              <th class="text-white font-bold">2030</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y text-left text-base text-gray-700">
+            <tr class="bg-[#FFFCED]"><td class="p-3">1</td><td>GK</td><td>Yassine Bounou</td><td></td><td></td><td>Left</td><td>34</td><td>1.95 m</td><td>Al Hilal</td><td>€3.4m</td><td>❌</td></tr>
+            <tr class="bg-[#FFFCED]"><td class="p-3">2</td><td>.</td><td>El Mehdi Al Harrar</td><td></td><td></td><td>Right</td><td>25</td><td>1.92 m</td><td>Raja Club Athletic</td><td>€750 k</td><td>✅</td></tr>          
+            <tr class="bg-[#FFFCED]"><td class="p-3">3</td><td>.</td><td>Yanis Benchaouch</td><td></td><td></td><td>Right</td><td>20</td><td>1.88 m</td><td>AS Monaco</td><td>€100 k</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FFFCED]"><td class="p-3">4</td><td>.</td><td>Ibrahim Gomis</td><td></td><td></td><td>Right</td><td>20</td><td>2 m</td><td>Marseille B</td><td>€50 k</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FFFCED]"><td class="p-3">5</td><td>.</td><td>Hakim Mesbahi</td><td></td><td></td><td>Right</td><td>20</td><td>1.87 m</td><td>FAR Reserve</td><td>€50 k</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#EBEFFB]"><td class="p-3">6</td><td>CB</td><td>Nayef Aguerd</td><td></td><td></td><td>Right</td><td>29</td><td>1.90 m</td><td>Marseille</td><td>€22 m</td><td>❌</td></tr>
+            <tr class="bg-[#EBEFFB]"><td class="p-3">7</td><td>.</td><td>Abdel Abqar</td><td></td><td></td><td>Right</td><td>26</td><td>1.88 m</td><td>Getafe CF</td><td>€6 m</td><td>✅</td></tr>          
+            <tr class="bg-[#EBEFFB]"><td class="p-3">8</td><td>.</td><td>Chadi Riad</td><td></td><td></td><td>Left</td><td>22</td><td>1.87 m</td><td>Crystal Palace</td><td>€12 m</td><td>✅ ⭐</td></tr>          
+            <tr class="bg-[#EBEFFB]"><td class="p-3">9</td><td>.</td><td>Mehdi Boukamir</td><td></td><td></td><td>Right</td><td>22</td><td>1.88 m</td><td>Charleroi</td><td>€500 k</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#EBEFFB]"><td class="p-3">10</td><td>.</td><td>Ayman El Wafi</td><td></td><td></td><td>Left</td><td>21</td><td>1.89 m</td><td>Wydad AC</td><td>€2.8 m</td><td>✅ ⭐</td></tr>          
+            <tr class="bg-[#EBEFFB]"><td class="p-3">11</td><td>.</td><td>Ismael Baouf</td><td></td><td></td><td>Right</td><td>20</td><td>1.83 m</td><td>Cambuur</td><td>€1.40 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#EBEFFB]"><td class="p-3">12</td><td>.</td><td>Abdelhamid Ait Boudlal</td><td></td><td>Yes</td><td>Right</td><td>20</td><td>1.90 m</td><td>Rennes</td><td>€10 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#EBEFFB]"><td class="p-3">13</td><td>.</td><td>Smail Bakhty</td><td></td><td></td><td>Right</td><td>20</td><td>1.83 m</td><td>Sturm Graz II</td><td>€250 k</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#F4F9FF]"><td class="p-3">14</td><td>RB</td><td>Achraf Hakimi</td><td>RM & LB</td><td></td><td>Right</td><td>28</td><td>1.81 m</td><td>PSG</td><td>€80 m</td><td>✅</td></tr>
+            <tr class="bg-[#F4F9FF]"><td class="p-3">15</td><td>.</td><td>Noussair Mazraoui</td><td>LB & CB</td><td></td><td>Right</td><td>28</td><td>1.83 m</td><td>Manchester Utd</td><td>€22 m</td><td>✅</td></tr>
+            <tr class="bg-[#F4F9FF]"><td class="p-3">16</td><td>.</td><td>Omar El Hilali</td><td>LB & CB</td><td></td><td>Right</td><td>23</td><td>1.83 m</td><td>Espanyol</td><td>€15 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#EBFBFE]"><td class="p-3">17</td><td>LB</td><td>Souffian El Karouani</td><td>LM & CM</td><td></td><td>Left</td><td>25</td><td>1.78 m</td><td>Utrecht</td><td>€15 m</td><td>✅          
+            <tr class="bg-[#EBFBFE]"><td class="p-3">18</td><td>.</td><td>Anass Salah-Eddine</td><td>CM & LM</td><td></td><td>Left</td><td>24</td><td>1.81 m</td><td>PSV</td><td>€12 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#EBFBFE]"><td class="p-3">19</td><td>.</td><td>Fouad Zahouani</td><td></td><td></td><td>Left</td><td>20</td><td>1.80 m</td><td>Union Touarga</td><td>€1 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FFE4E4]"><td class="p-3">20</td><td>DM</td><td>Sofyan Amrabat</td><td>CM & CB</td><td>Yes</td><td>Right</td><td>29</td><td>1.85 m</td><td>Bites</td><td>€12 m</td><td>❌</td></tr>
+            <tr class="bg-[#FFE4E4]"><td class="p-3">21</td><td>.</td><td>Oussama El Azzouzi</td><td>CM</td><td></td><td>Right</td><td>24</td><td>1.89 m</td><td>Auxerre</td><td>€1.8 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FFE4E4]"><td class="p-3">22</td><td>.</td><td>Oussama Targhalline</td><td>CM</td><td>Yes</td><td>Right</td><td>23</td><td>1.86 m</td><td>Feyenoord</td><td>€8 m</td><td>✅</td></tr>
+            <tr class="bg-[#FFF5EE]"><td class="p-3">23</td><td>CM</td><td>Azzedine Ounahi</td><td>AM & DM</td><td>Yes</td><td>Right</td><td>25</td><td>1.82 m</td><td>Girona</td><td>€10 m</td><td>✅</td></tr>
+            <tr class="bg-[#FFF5EE]"><td class="p-3">24</td><td>.</td><td>Ismael Saibari</td><td>AM & RW</td><td></td><td>Right</td><td>25</td><td>1.85 m</td><td>PSV</td><td>€32 m</td><td>✅</td></tr>
+            <tr class="bg-[#FFF5EE]"><td class="p-3">25</td><td>.</td><td>Neil El Aynaoui</td><td>DM</td><td></td><td>Right</td><td>24</td><td>1.85 m</td><td>AS Roma</td><td>€20 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FFF5EE]"><td class="p-3">26</td><td>.</td><td>Samir El Mourabet</td><td>AM & LW</td><td></td><td>Left</td><td>20</td><td>1.86 m</td><td>Strasbourg</td><td>€8 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FFF5EE]"><td class="p-3">27</td><td>.</td><td>Naim Byar</td><td>AM & RW</td><td></td><td>Right</td><td>20</td><td>1.82 m</td><td>Wydad AC</td><td>€500 k</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FFF5EE]"><td class="p-3">28</td><td>.</td><td>Ayyoub Bouaddi</td><td>DM</td><td></td><td>Right</td><td>18</td><td>1.86 m</td><td>Lille</td><td>€40 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#F6F1FE]"><td class="p-3">29</td><td>AM</td><td>Sofiane Boufal</td><td>LW & SS</td><td></td><td>Right</td><td>32</td><td>1.75 m</td><td>Le Havre AC</td><td>€2 m</td><td>❌</td></tr>
+            <tr class="bg-[#F6F1FE]"><td class="p-3">30</td><td>.</td><td>Abdelhamid Sabiri</td><td>CM & LM</td><td></td><td>Right</td><td>29</td><td>1.86 m</td><td>Fiorentina</td><td>€1.5 m</td><td>❌</td></tr>
+            <tr class="bg-[#F6F1FE]"><td class="p-3">31</td><td>.</td><td>Bilal El Khannouss</td><td>CM & LW</td><td></td><td>Right</td><td>21</td><td>1.80 m</td><td>Stuttgart</td><td>€32 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#F6F1FE]"><td class="p-3">32</td><td>.</td><td>Hossam Essadak</td><td>LW & RW</td><td></td><td>Left</td><td>20</td><td>1.80 m</td><td>Union Touarga</td><td>€1 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#F6F1FE]"><td class="p-3">33</td><td>.</td><td>Saad El Haddad</td><td>LW & SS</td><td></td><td>Right</td><td>20</td><td>1.75 m</td><td>Venezia</td><td>€400 k</td><td>✅ ⭐</td></tr>          
+            <tr class="bg-[#F6F1FE]"><td class="p-3">34</td><td>.</td><td>Rayane Bounida</td><td>LW & RW</td><td></td><td>Right</td><td>19</td><td>1.79 m</td><td>Ajax</td><td>€1.5 m</td><td>✅ ⭐</td></tr>          
+            <tr class="bg-[#F6F1FE]"><td class="p-3">35</td><td>.</td><td>Abdellah Ouazane</td><td>CM & LW</td><td></td><td>Right</td><td>17</td><td>1.84 m</td><td>Ajax U21</td><td>€800 k</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FDF0F0]"><td class="p-3">36</td><td>RW</td><td>Hakim Ziyech</td><td>AM</td><td></td><td>Left</td><td>32</td><td>1.80 m</td><td>Wydad AC</td><td>€3 m</td><td>❌</td></tr>
+            <tr class="bg-[#FDF0F0]"><td class="p-3">37</td><td>.</td><td>Brahim Díaz</td><td>AM & LW</td><td></td><td>Right</td><td>26</td><td>1.75 m</td><td>Real Madrid</td><td>€35 m</td><td>✅</td></tr>
+            <tr class="bg-[#FDF0F0]"><td class="p-3">38</td><td>.</td><td>Ilias Akhomach</td><td></td><td></td><td>Right</td><td>21</td><td>1.75 m</td><td>Rayo Vallecano</td><td>€12 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FDF0F0]"><td class="p-3">39</td><td>.</td><td>Ayoube Amaimouni</td><td>LW</td><td></td><td>Left</td><td>21</td><td>1,79 m</td><td>Frankfurt</td><td>€2 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FDF0F0]"><td class="p-3">40</td><td>.</td><td>Chemsdine Talbi</td><td>LW & AM</td><td></td><td>Right</td><td>20</td><td>1.75 m</td><td>Sunderland</td><td>€22 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FDF0F0]"><td class="p-3">41</td><td>.</td><td>Othmane Maamma</td><td>LW</td><td></td><td>Right</td><td>20</td><td>1.82 m</td><td>Watford</td><td>€1.3 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FDF0F0]"><td class="p-3">42</td><td>.</td><td>Gessime Yassine</td><td>LW</td><td></td><td>Left</td><td>20</td><td>1.72 m</td><td>Strasbourg</td><td>€6 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FDF0F0]"><td class="p-3">43</td><td>.</td><td>Ilies Belmokhtar</td><td></td><td></td><td>Left</td><td>17</td><td>1.75 m</td><td>AS Monaco U21</td><td>€0</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FEF2F8]"><td class="p-3">44</td><td>LW</td><td>Abde Ezzalzouli</td><td>RW</td><td></td><td>Right</td><td>24</td><td>1.77 m</td><td>Betis</td><td>€20 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FEF2F8]"><td class="p-3">45</td><td>.</td><td>Eliesse Ben Seghir</td><td>AM & LM</td><td>Yes</td><td>Right</td><td>20</td><td>1.78 m</td><td>B.Leverkusen</td><td>€24 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FCF9F1]"><td class="p-3">46</td><td>CF</td><td>Youssef En-Nesyri</td><td></td><td></td><td>Left</td><td>29</td><td>1.88 m</td><td>Fenerbahce</td><td>€22 m</td><td>❌</td></tr>
+            <tr class="bg-[#FCF9F1]"><td class="p-3">47</td><td>.</td><td>Hamza Igamane</td><td>RW & LW</td><td>Yes</td><td>Right</td><td>23</td><td>1.81 m</td><td>Lille</td><td>€18 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FCF9F1]"><td class="p-3">48</td><td>.</td><td>El Mehdi Maouhoub</td><td>LW</td><td></td><td>Right</td><td>22</td><td>1.86 m</td><td>Dynamo Moscow</td><td>€1.2 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FCF9F1]"><td class="p-3">49</td><td>.</td><td>Yassir Zabiri</td><td>RW & LW</td><td></td><td>Left</td><td>20</td><td>1.82 m</td><td>Famalicao</td><td>€4 m</td><td>✅ ⭐</td></tr>
+            <tr class="bg-[#FCF9F1]"><td class="p-3">50</td><td>.</td><td>Ziyad Baha</td><td></td><td></td><td>Right</td><td>17</td><td>1.83 m</td><td>Marseille U19</td><td>€0</td><td>✅ ⭐</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+
+      <!-- Final List so Far -->
+      <section id="finallist" class="mb-16">
+        <h3 class="text-3xl font-bold mb-4 border-b-2 border-black shadow-md"> Final List so Far(FIFA World Cup 2026)</h3>
+        <div class="text-base text-gray-700">
+          <!-- Goolkeeper (GK) -->
+          <p class="mb-4 font-normal leading-relaxed"><span class="font-bold">Goolkeeper (3): </span>Yassine Bounou, El Mehdi Al Harrar, Yanis Benchaouch</p>
+          
+          <!-- Center-back (CB) -->
+          <p class="mb-4 font-normal leading-relaxed"><span class="font-bold">Center-back (4): </span>Nayef Aguerd, Ismael Baouf, chadi Riad, Ayman El Wafi</span></p>
+          
+          <!-- Right-back (RB) -->        
+          <p class="mb-4 font-normal leading-relaxed"><span class="font-bold">Right-back (2): </span>Achraf Hakimi, Omar El Hilali</span></p>
+          
+          <!-- Left-back (LB) -->
+          <p class="mb-4 font-normal leading-relaxed"><span class="font-bold">Left-back (2): </span>Noussair Mazraoui, Anass Salah-Eddine</span></p>
+          
+          <!-- Defensive Midfielder (DM) -->        
+          <p class="mb-4 font-normal leading-relaxed"><span class="font-bold">Defensive Midfielder (1): </span>Oussama El Azzouzi</span></p>
+          
+          <!-- Central Midfielder (CM) -->        
+          <p class="mb-4 font-normal leading-relaxed"><span class="font-bold">Central Midfielder (4): </span>Ayyoub Bouaddi, Neil El Aynaoui, Samir El Mourabet, Azzedine Ounahi</span></p>
+          
+          <!-- Attacking Midfielder (AM) -->        
+          <p class="mb-4 font-normal leading-relaxed"><span class="font-bold">Attacking Midfielder (2): </span>Bilal El Khannouss, Sofiane Boufal</span></p>
+          
+          <!-- Right Winger (RW) -->        
+          <p class="mb-4 font-normal leading-relaxed"><span class="font-bold">Right Winger (3): </span>Hakim Ziyech, Brahim Díaz, Ilias Akhomach</span></p>
+          
+          <!-- Left Winger (LW) -->        
+          <p class="mb-4 font-normal leading-relaxed"><span class="font-bold">Left Winer (2): </span>Abdessamad Ezzalzouli, Chemsdine Talbi</span></p>
+          
+          <!-- Centre-Forward (ST) -->
+          <p class="mb-4 font-normal leading-relaxed"><span class="font-bold">Center-Forward (3): </span>Yassir Zabiri, El Mehdi Maouhoub, Youssef En-Nesyri</span></p>
+          
+        </div>
+      </section>
+
+
+      <!-- Excluded-->
+      <section>
+        <h3 class="text-3xl font-bold mb-4 border-b-2 border-black shadow-md">Excluded Players</h3>
+        <div class="flex flex-col space-y-4 text-base text-gray-700">
+          <p><span class="font-bold">Munir El Kakoui:</span> is not listed in the database <span class="font-bold text-[#ff0000]">injury</span></p>
+          <p><span class="font-bold">Romain Saïss:</span> is not listed in the database <span class="font-bold text-[#ff0000]">injury</span></p>
+          <p><span class="font-bold">Adam Masina:</span> is not listed in the database <span class="font-bold text-[#ff0000]">injury</span></p>
+          <p><span class="font-bold">Jawad El Yamiq:</span> is not listed in the database </p>
+          <p><span class="font-bold">Youssef Belammari:</span> is not listed in the database </p>
+          <p><span class="font-bold">Mohamed Chibi:</span> is not listed in the database</p>
+          <p><span class="font-bold">Sofyan Amrabat:</span> He was sidelined due to<span class="font-bold text-[#ff0000]"> injury</span></p>
+          <p><span class="font-bold">Oussama Targhalline:</span> He has potential but needs to improve <span class="font-bold text-[#ff0000]">injury</span></p>
+          <p><span class="font-bold">Ismael Saibari: </span> He’s a very talented central midfielder</p>
+          <p><span class="font-bold">Eliesse Ben Seghir:</span> <span class="font-bold text-[#ff0000]">injury</span> not match-fit for now</p>
+          <p><span class="font-bold">Soufiane Rahimi:</span> is not listed in the database</p>
+          <p><span class="font-bold">Ayoub El Kaabi:</span> is not listed in the database</p>
+          <p><span class="font-bold">Hamza Igamane: </span> He was sidelined due to <span class="font-bold text-[#ff0000]">injury</span></p>
+        </div>
+      </section>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-300 bg-[#f7f7f7]">
+    <div class="max-w-[1200px] mx-auto px-4 py-8">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+
+        <div class="text-sm text-gray-700 font-bold">
+          <p class="font-semibold tracking-widest uppercase">Morocco National Team</p>
+          <p class="mt-1">World Cup 2026 • Vision 2030</p>
+        </div>
+
+        <div class="flex flex-wrap gap-4 text-xs uppercase tracking-widest text-gray-700 font-bold">
+          <a href="home.html" class="hover:text-black">Home</a>
+          <a href="#players" class="hover:text-black">Players</a>
+          <a href="tactics.html" class="hover:text-black">Tactics</a>
+        </div>
+
+        <div class="text-xs text-gray-500 font-bold">
+          <p>© <span id="year"></span> Morocco Strategy</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const navbar = document.getElementById("navbar");
+
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 250) {
+        navbar.classList.remove("bg-[#f7f7f7]");
+        navbar.classList.add("bg-[#cc0a16]", "shadow-md");
+        navbar.classList.add("text-white")
+      } else {
+        navbar.classList.remove("bg-[#cc0a16]", "shadow-md");
+        navbar.classList.remove("text-white")
+        navbar.classList.add("bg-[#f7f7f7]");
+      }
+    });
+  </script>
+
+
+</body>
+</html>

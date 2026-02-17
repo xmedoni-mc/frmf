@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FRMF</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+    }
+  </style>
+</head>
+
+
+<body class="bg-white tracking-widest">
+
+  <!-- Header -->
+
+    <!-- Logo -->
+  <header class="border-b border-gray-300">
+
+    <!-- Logo -->
+    
+    <div class="max-w-full mx-auto px-4 bg-[#cc0a16]">
+      <ul class="flex justify-center space-x-8 py-3 text-sm text-white font-bold">
+        <li><a href="#" class="hover:text-gray-100 transition">العربية</a></li>
+        <li><a href="#" class="hover:text-gray-100 transition">ⵣⵉⵏⴰⵖ</a></li>
+        <li><a href="#" class="hover:text-gray-100 transition">English</a></li>
+        <li><a href="#" class="hover:text-gray-100 transition">Français</a></li>
+      </ul>
+    </div>
+    <div class="flex justify-center py-6 bg-[#cc0a16]">
+      <img src="logo.png" alt="Logo" class="h-32 w-auto" />
+    </div>
+
+  </header>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="sticky top-0 z-50 bg-[#f7f7f7] border-b border-gray-300 shadow-xl transition-all duration-500 ease-in-out">
+    <div class="max-w-full mx-auto px-4">
+      <ul class="flex justify-center space-x-8 py-3 text-sm uppercase font-bold">
+        <li><a href="#home" class="hover:text-gray-700 transition">Home</a></li>
+        <li><a href="players.html" class="hover:text-gray-700 transition">Players</a></li>
+        <li><a href="tactics.html" class="hover:text-gray-700 transition">Tactics</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <section class="bg-[#f7f7f7]">
+    <div class="max-w-[1200px] mx-auto px-4 py-16">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+
+        <!-- Hero Text -->
+        <div>
+          <h1 class="text-5xl lg:text-6xl font-bold leading-tight">
+            The Future of Sports Strategy
+          </h1>
+          <p class="mt-6 text-lg lg:text-xl text-gray-700 leading-relaxed">
+            Discover the best players, plans, and strategies
+          </p>
+          <div class="mt-8">
+            <a href="players.html" class="inline-block border border-black px-8 py-3 text-sm uppercase font-medium hover:bg-black hover:text-white transition">
+              Explore Players
+            </a>
+            <a href="players.html" class="inline-block border border-black px-8 py-3 text-sm uppercase font-medium hover:bg-black hover:text-white transition">
+              Explore Tactics
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Image (optional) -->
+        <div class="hidden lg:block">
+          <div class="h-96 bg-gray-200 border border-gray-300 flex items-center justify-center">
+            <img 
+            src="https://le12.ma/wp-content/uploads/2024/01/%D8%AD%D9%83%D9%8A%D9%85-%D8%B2%D9%8A%D8%A7%D8%B4-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A.webp" 
+            alt="Hakim Ziyech" 
+            class="w-full h-full object-cover"
+          />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Note -->
+  <section>
+    <div class="max-w-[1200px] mx-auto px-4 py-16">
+      <div class="bg-[#FDEE00] p-4 font-bold shadow-xl">
+        <h2 class="block">Note:</h2>
+        <p class="text-justify text-gray-700">“The content of this website may appear unconventional; however, it represents the perspective of a passionate Moroccan supporter and does not intend to interfere with the Moroccan national team coach’s tactics or decisions.”</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-300 bg-[#f7f7f7]">
+    <div class="max-w-[1200px] mx-auto px-4 py-8">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+
+        <div class="text-sm text-gray-700">
+          <p class="font-semibold tracking-widest uppercase">Morocco National Team</p>
+          <p class="mt-1">World Cup 2026 • Vision 2030</p>
+        </div>
+
+        <div class="flex flex-wrap gap-4 text-xs uppercase tracking-widest text-gray-700">
+          <a href="#" class="hover:text-black">Home</a>
+          <a href="players.html" class="hover:text-black">Players</a>
+          <a href="tactics.html" class="hover:text-black">Tactics</a>
+        </div>
+
+        <div class="text-xs text-gray-500 font-bold">
+          <p>© <span id="year"></span> Morocco Strategy</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const navbar = document.getElementById("navbar");
+
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 250) {
+        navbar.classList.remove("bg-[#f7f7f7]");
+        navbar.classList.add("bg-[#cc0a16]", "shadow-md");
+        navbar.classList.add("text-white")
+      } else {
+        navbar.classList.remove("bg-[#cc0a16]", "shadow-md");
+        navbar.classList.remove("text-white")
+        navbar.classList.add("bg-[#f7f7f7]");
+      }
+    });
+  </script>
+
+</body>
+</html>
